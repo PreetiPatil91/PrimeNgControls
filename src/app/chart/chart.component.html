@@ -1,0 +1,9 @@
+<p-chart type="bar" [data]="data" width="500px" height="500px"></p-chart>
+<p-chart
+  type="line"
+  [data]="dataSet"
+  (onDataSelect)="selectData($event)"
+  width="500px"
+  height="500px"
+></p-chart>
+<p-chart type="pie" [data]="dataPie" width="500px" height="500px"></p-chart>

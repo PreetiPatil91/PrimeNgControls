@@ -1,0 +1,54 @@
+<h1>PrimeNg Control Libraries</h1>
+<nav>
+  <a
+    class="button"
+    routerLink="/form-path"
+    routerLinkActive="activebutton"
+    ariaCurrentWhenActive="page"
+  >
+    Form Component
+  </a>
+  |
+  <a
+    class="button"
+    routerLink="/chart-path"
+    routerLinkActive="activebutton"
+    ariaCurrentWhenActive="page"
+  >
+    Chart Component
+  </a>
+  |
+  <a
+    class="button"
+    routerLink="/fileupload-path"
+    routerLinkActive="activebutton"
+    ariaCurrentWhenActive="page"
+  >
+    FileUpload Component
+  </a>
+  <!-- |
+  <a
+    class="button"
+    routerLink="/table-path"
+    routerLinkActive="activebutton"
+    ariaCurrentWhenActive="page"
+  >
+    Table Component
+  </a> -->
+</nav>
+<router-outlet></router-outlet>
+
+<div style="display: none">
+  <!-- This HTML represents the initial state for the tutorial. It is not intended to appear in the app. -->
+  <app-chart></app-chart>
+  <app-form></app-form>
+  <app-fileupload></app-fileupload>
+  <app-ptable></app-ptable>
+  <!-- This HTML snippet is for when the user first adds the routerlink navigation. -->
+  <nav>
+    <a class="button" routerLink="/form-path">Form Component</a> |
+    <a class="button" routerLink="/chart-path">Chart Component</a>|
+    <a class="button" routerLink="/fileupload-path"> FileUpload Component</a>
+    <!-- <a class="button" routerLink="/table-path"> Table Component</a> -->
+  </nav>
+</div>
